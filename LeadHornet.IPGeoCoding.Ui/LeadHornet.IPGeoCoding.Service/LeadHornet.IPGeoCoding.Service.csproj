@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IpInfo.Api.Client" Version="1.0.4" />
+    <PackageReference Include="OpenWeatherMap" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeadHornet.IPGeoCoding.Common\LeadHornet.IPGeoCoding.Common.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Service\\LeadHornet.IPGeoCoding.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\LeadHornet.IPGeoCoding.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\LeadHornet.IPGeoCoding.Common.csproj",
+        "projectName": "LeadHornet.IPGeoCoding.Common",
+        "projectPath": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\LeadHornet.IPGeoCoding.Common.csproj",
+        "packagesPath": "C:\\Users\\maureen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maureen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Service\\LeadHornet.IPGeoCoding.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Service\\LeadHornet.IPGeoCoding.Service.csproj",
+        "projectName": "LeadHornet.IPGeoCoding.Service",
+        "projectPath": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Service\\LeadHornet.IPGeoCoding.Service.csproj",
+        "packagesPath": "C:\\Users\\maureen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maureen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\LeadHornet.IPGeoCoding.Common.csproj": {
+                "projectPath": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\LeadHornet.IPGeoCoding.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "IpInfo.Api.Client": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "OpenWeatherMap": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

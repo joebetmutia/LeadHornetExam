@@ -1,0 +1,9 @@
+C:\Users\maureen\Desktop\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Common\bin\Release\netstandard2.0\LeadHornet.IPGeoCoding.Common.deps.json
+C:\Users\maureen\Desktop\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Common\bin\Release\netstandard2.0\LeadHornet.IPGeoCoding.Common.dll
+C:\Users\maureen\Desktop\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Common\bin\Release\netstandard2.0\LeadHornet.IPGeoCoding.Common.pdb
+C:\Users\maureen\Desktop\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Common\obj\Release\netstandard2.0\LeadHornet.IPGeoCoding.Common.csprojAssemblyReference.cache
+C:\Users\maureen\Desktop\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Common\obj\Release\netstandard2.0\LeadHornet.IPGeoCoding.Common.csproj.CoreCompileInputs.cache
+C:\Users\maureen\Desktop\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Common\obj\Release\netstandard2.0\LeadHornet.IPGeoCoding.Common.AssemblyInfoInputs.cache
+C:\Users\maureen\Desktop\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Common\obj\Release\netstandard2.0\LeadHornet.IPGeoCoding.Common.AssemblyInfo.cs
+C:\Users\maureen\Desktop\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Common\obj\Release\netstandard2.0\LeadHornet.IPGeoCoding.Common.dll
+C:\Users\maureen\Desktop\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Common\obj\Release\netstandard2.0\LeadHornet.IPGeoCoding.Common.pdb

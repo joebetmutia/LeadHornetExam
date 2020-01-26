@@ -1,0 +1,152 @@
+﻿
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+
+<div class="container">
+    <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="~/images/ezgif.com-webp-to-png.png" />
+        <h2>Programming Task</h2>
+        <p class="lead">This is a simple demonstration for my programming task.</p>
+        <p class="lead">Your IP is <span class="ip-address-container"></span></p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 order-md-1">
+            <h4 class="mb-3">Customer Information</h4>
+            <form class="needs-validation" novalidate="">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">Country Name</label>
+                        <input type="text" class="form-control country-name-textbox" id="countryNameTextBox" placeholder="Please enter your location" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                        <button class="btn btn-primary btn-block col-md-12 submit-weather-button" style="margin-top:10px" type="button">Get Weather Updates</button>
+                    </div>
+                    <div class="col-md-6 mb-3 data-weather-container">
+                        
+                    </div>
+                </div>
+                <hr class="mb-4">
+                
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div class="tempate-card d-none">
+    <div class="card border-dark mb-3">
+        <div class="card-header"><img src="{cloud_icon}" width="50" height="50">{cloud_name}</div>
+        <div class="card-body text-dark">
+            <p class="card-text">Location : {city_name} {country} ({long},{lat})</p>
+            <p class="card-text">Temperature : {temperature}</p>
+            <p class="card-text">Humidity : {humidity}</p>
+            <p class="card-text">Pressure : {pressure}</p>
+            <p class="card-text">Last Update : {lastUpdate}</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">{header}</small>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+    <script src="~/js/ip-geo-coding-index.js"></script>
+
+
+    <script type="text/javascript">
+
+        var currentIpInfo = null;
+
+        let constants = {
+            elements: {
+                ipAddress: '.ip-address-container',
+                submitWeatherButton: '.submit-weather-button',
+                countryNameTextBox: '.country-name-textbox',
+                templateCard: '.tempate-card',
+                weatherContainer: '.data-weather-container'
+            },
+            url: {
+                getClientWeather: '/IPGeoCoding/GetClientWeather'
+            }
+        }
+
+        $(document).ready(function () {
+
+            ipGeoCodingModule.getUserIpAddress((data) => {
+                console.log(data)
+                currentIpInfo = data;
+                $(constants.elements.ipAddress).text(data.ip)
+
+            })
+
+
+            $(constants.elements.submitWeatherButton).click(function (e) {
+                e.preventDefault();
+
+                if ($(constants.elements.countryNameTextBox).val().length < 1) {
+                    toastr.error('Please enter your location.', 'Error!')
+                    return;
+                }
+
+                doGetCountryInfo();
+
+            })
+        })
+
+        function getCardData(data, header) {
+            var template = $(constants.elements.templateCard).html();
+
+            template = template.replace('{header}', header)
+            template = template.replace('{cloud_icon}', 'http://openweathermap.org/img/wn/' + data.weather.icon + '@@2x.png')
+            template = template.replace('{cloud_name}', data.weather.value)
+            template = template.replace('{temperature}', data.temperature.value + data.temperature.unit)
+            template = template.replace('{humidity}', data.humidity.value + data.humidity.unit)
+            template = template.replace('{pressure}', data.pressure.value + data.pressure.unit)
+            template = template.replace('{lastUpdate}', data.lastUpdate.value)
+            template = template.replace('{city_name}', data.city.name)
+            template = template.replace('{country}', data.city.country)
+            template = template.replace('{long}', data.city.coordinates.longitude)
+            template = template.replace('{lat}', data.city.coordinates.latitude)
+
+            return template
+        }
+
+        function doGetCountryInfo() {
+            var jqxhr = $.post(constants.url.getClientWeather, { IPAddress: currentIpInfo.ip, CountryName: $(constants.elements.countryNameTextBox).val() }, function (data) {
+                console.log(data)
+
+                if (data) {
+
+                    var htmlData = '';
+
+                    if (data.currentWeather_CountryName) {
+                        htmlData = (getCardData(data.currentWeather_CountryName, "Location Base Information"))
+                    }
+
+                    if (data.currentWeather_IP) {
+                        htmlData = htmlData + (getCardData(data.currentWeather_IP, "IP Base Information"))
+                    }
+
+                    $(constants.elements.weatherContainer).html(htmlData)
+
+                }
+
+
+            }).done(function () {
+            }).fail(function () {
+            }).always(function () {
+            });
+
+        }
+
+
+    </script>
+}
+
