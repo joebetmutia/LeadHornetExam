@@ -10,3 +10,15 @@ C:\Users\maureen\Desktop\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.S
 C:\Users\maureen\Desktop\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\obj\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Service.csproj.CopyComplete
 C:\Users\maureen\Desktop\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\obj\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Service.dll
 C:\Users\maureen\Desktop\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\obj\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Service.pdb
+F:\LeadHornet\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\bin\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Service.deps.json
+F:\LeadHornet\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\bin\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Service.dll
+F:\LeadHornet\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\bin\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Service.pdb
+F:\LeadHornet\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\bin\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Common.dll
+F:\LeadHornet\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\bin\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Common.pdb
+F:\LeadHornet\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\obj\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Service.csprojAssemblyReference.cache
+F:\LeadHornet\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\obj\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Service.csproj.CoreCompileInputs.cache
+F:\LeadHornet\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\obj\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Service.AssemblyInfoInputs.cache
+F:\LeadHornet\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\obj\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Service.AssemblyInfo.cs
+F:\LeadHornet\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\obj\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Service.csproj.CopyComplete
+F:\LeadHornet\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\obj\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Service.dll
+F:\LeadHornet\Exam\LeadHornet.IPGeoCoding.Ui\LeadHornet.IPGeoCoding.Service\obj\Debug\netstandard2.0\LeadHornet.IPGeoCoding.Service.pdb

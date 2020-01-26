@@ -184,11 +184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\LeadHornet.IPGeoCoding.Common.csproj",
+      "projectUniqueName": "F:\\LeadHornet\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\LeadHornet.IPGeoCoding.Common.csproj",
       "projectName": "LeadHornet.IPGeoCoding.Common",
-      "projectPath": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\LeadHornet.IPGeoCoding.Common.csproj",
+      "projectPath": "F:\\LeadHornet\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\LeadHornet.IPGeoCoding.Common.csproj",
       "packagesPath": "C:\\Users\\maureen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\obj\\",
+      "outputPath": "F:\\LeadHornet\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -13147,11 +13147,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Ui.csproj",
+      "projectUniqueName": "F:\\LeadHornet\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Ui.csproj",
       "projectName": "LeadHornet.IPGeoCoding.Ui",
-      "projectPath": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Ui.csproj",
+      "projectPath": "F:\\LeadHornet\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Ui.csproj",
       "packagesPath": "C:\\Users\\maureen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Ui\\obj\\",
+      "outputPath": "F:\\LeadHornet\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Ui\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13170,11 +13170,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\LeadHornet.IPGeoCoding.Common.csproj": {
-              "projectPath": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\LeadHornet.IPGeoCoding.Common.csproj"
+            "F:\\LeadHornet\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\LeadHornet.IPGeoCoding.Common.csproj": {
+              "projectPath": "F:\\LeadHornet\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Common\\LeadHornet.IPGeoCoding.Common.csproj"
             },
-            "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Service\\LeadHornet.IPGeoCoding.Service.csproj": {
-              "projectPath": "C:\\Users\\maureen\\Desktop\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Service\\LeadHornet.IPGeoCoding.Service.csproj"
+            "F:\\LeadHornet\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Service\\LeadHornet.IPGeoCoding.Service.csproj": {
+              "projectPath": "F:\\LeadHornet\\Exam\\LeadHornet.IPGeoCoding.Ui\\LeadHornet.IPGeoCoding.Service\\LeadHornet.IPGeoCoding.Service.csproj"
             }
           }
         }

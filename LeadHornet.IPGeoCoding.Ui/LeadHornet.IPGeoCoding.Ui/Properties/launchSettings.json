@@ -11,6 +11,7 @@
     "LeadHornet.IPGeoCoding.Ui": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "IPGeoCoding",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
